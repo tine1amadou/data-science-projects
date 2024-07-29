@@ -1,0 +1,23 @@
+import matplotlib.pyplot as plt
+from wordcloud import WordCloud
+def generate_wordcloud(text_series, title):
+    # Concatenate all text data into a single string
+    text = " ".join(review for review in text_series)
+    
+    # Generate a word cloud image
+    wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
+    
+    # Set up the plot parameters
+    plt.figure(figsize=(10,5))
+    plt.imshow(wordcloud, interpolation='bilinear')
+    plt.axis("off")  # Remove axis as they are unnecessary for a word cloud
+    plt.title(title)
+    plt.show()
+                    # Generate a word cloud for the 'Conversation' column
+generate_wordcloud(df['Conversation'], "Word Cloud for Conversation")
+ 
+# Generate a word cloud for the 'Summary' column
+generate_wordcloud(df['Summary'], "Word Cloud for Summary")
+
+# Generate a word cloud for the 'Cancellation Reasons' column
+generate_wordcloud(df['Cancellation_reasons'], "Word Cloud for Cancellation Reasons")
