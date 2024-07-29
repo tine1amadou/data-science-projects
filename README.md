@@ -4,11 +4,11 @@
 This repository contains a collection of data science projects that showcase my skills and experience in data analysis, machine learning, data visualization, and more. Each project is well-documented and includes code, datasets, and detailed explanations.
 
 ## Projects Included
-1. **Customer Segmentation**: Using clustering algorithms to segment customers based on their purchasing behavior.
-2. **Predictive Modeling**: Building regression and classification models to predict outcomes such as house prices and customer churn.
-3. **Data Visualization**: Creating insightful visualizations to explore and present data using tools like Matplotlib, Seaborn, and Plotly.
-4. **Natural Language Processing (NLP)**: Analyzing and modeling text data for tasks like sentiment analysis and text summarization.
-5. **Big Data Analysis**: Utilizing tools like Hadoop and Spark to process and analyze large datasets.
+1. **Customer Segmentation**: Using clustering algorithms to segment customers based on their purchasing behavior. (WIP)
+2. **Predictive Modeling**: Building regression and classification models to predict outcomes such as house prices and customer churn. (WIP)
+3. **Data Visualization**: Creating insightful visualizations to explore and present data using tools like Matplotlib, Seaborn, and Plotly. (WIP)
+4. **Natural Language Processing (NLP)**: Analyzing and modeling text data for tasks like sentiment analysis and text summarization. 
+5. **Big Data Analysis**: Utilizing tools like Hadoop and Spark to process and analyze large datasets. (WIP)
 
 ## Tools and Technologies
 - Python
@@ -20,7 +20,7 @@ This repository contains a collection of data science projects that showcase my 
 - Hadoop, Spark
 
 ## How to Use This Repository
-1. **Clone the Repository**: `git clone https://github.com/yourusername/data-science-projects.git`
+1. **Clone the Repository**: `git clone https://github.com/tine1amadou/data-science-projects.git`
 2. **Navigate to a Project**: Each project has its own directory with a README file explaining the project in detail.
 3. **Install Dependencies**: Use the `requirements.txt` file in each project directory to install necessary dependencies.
 
