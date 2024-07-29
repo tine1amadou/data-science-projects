@@ -17,8 +17,8 @@ This project leverages advanced NLP and generative AI to provide deeper insights
 ## Setup and Usage
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/generative-ai-customer-insights.git
-    cd generative-ai-customer-insights
+    git clone https://github.com/tine1amadou/data-science-projects/tree/main/Gen_AI_NLP_Project/notebooks
+    cd Gen_AI_NLP_Project/notebooks
     ```
 2. Install the required dependencies:
     ```bash
